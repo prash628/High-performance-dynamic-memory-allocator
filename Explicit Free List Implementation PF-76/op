@@ -1,0 +1,185 @@
+Measuring performance with gettimeofday().
+Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: EOL
+
+ extendin again
+
+ coal until if  found done!1,1Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [4096:f] footer: [4096:f]
+YOYOYO0x800000010: FreeNext: [(nil)] FreePrev: [(nil)]
+0x800001010: EOL
+Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [4096:f] footer: [4096:f]
+YOYOYO0x800000010: FreeNext: [(nil)] FreePrev: [(nil)]
+0x800001010: EOL
+
+ Size 2040
+
+YOYOYO: ZE FREEPTR afta gettin free: [0x800000010] 
+
+Damn Simmons0x800000010
+Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [2048:a] footer: [2048:a]
+0x800000810: header: [2048:f] footer: [2048:f]
+YOYOYO0x800000810: FreeNext: [(nil)] FreePrev: [(nil)]
+0x800001010: EOL
+
+ Size 2040
+
+YOYOYO: ZE FREEPTR afta gettin free: [0x800000810] 
+
+
+sweet as free 0x800000810
+
+ coal until if  found done!1,1Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [2048:a] footer: [2048:a]
+0x800000810: header: [2048:f] footer: [2048:f]
+YOYOYO0x800000810: FreeNext: [(nil)] FreePrev: [(nil)]
+0x800001010: EOL
+Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [2048:a] footer: [2048:a]
+0x800000810: header: [2048:f] footer: [2048:f]
+YOYOYO0x800000810: FreeNext: [(nil)] FreePrev: [(nil)]
+0x800001010: EOL
+Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [2048:a] footer: [2048:a]
+0x800000810: header: [2048:f] footer: [2048:f]
+YOYOYO0x800000810: FreeNext: [(nil)] FreePrev: [(nil)]
+0x800001010: EOL
+
+ Size 48
+
+YOYOYO: ZE FREEPTR afta gettin free: [0x800000810] 
+
+Damn Simmons0x800000810
+Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [2048:a] footer: [2048:a]
+0x800000810: header: [56:a] footer: [56:a]
+0x800000848: header: [1992:f] footer: [1992:f]
+YOYOYO0x800000848: FreeNext: [(nil)] FreePrev: [(nil)]
+0x800001010: EOL
+
+ Size 4072
+
+YOYOYO: ZE FREEPTR afta gettin free: [0x800000848] 
+
+
+ extendin again
+
+ coal until if  found done!0,1Damn Simmons0x800000848
+
+sweet as free 0x800000848
+
+ coal until if  found done!1,0Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [2048:a] footer: [2048:a]
+0x800000810: header: [56:a] footer: [56:a]
+0x800000848: header: [6088:f] footer: [6088:f]
+YOYOYO0x800000848: FreeNext: [(nil)] FreePrev: [(nil)]
+0x800002010: EOL
+Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [2048:a] footer: [2048:a]
+0x800000810: header: [56:a] footer: [56:a]
+0x800000848: header: [6088:f] footer: [6088:f]
+YOYOYO0x800000848: FreeNext: [(nil)] FreePrev: [(nil)]
+0x800002010: EOL
+
+ Size 4072
+
+YOYOYO: ZE FREEPTR afta gettin free: [0x800000848] 
+
+Damn Simmons0x800000848
+
+sweet as free 0x800000010
+
+ coal until if  found done!1,1Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [2048:f] footer: [2048:f]
+YOYOYO0x800000010: FreeNext: [0x800001838] FreePrev: [(nil)]
+0x800000810: header: [56:a] footer: [56:a]
+0x800000848: header: [4080:a] footer: [4080:a]
+0x800001838: header: [2008:f] footer: [2008:f]
+YOYOYO0x800001838: FreeNext: [(nil)] FreePrev: [(nil)]
+0x800002010: EOL
+Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [2048:f] footer: [2048:f]
+YOYOYO0x800000010: FreeNext: [0x800001838] FreePrev: [(nil)]
+0x800000810: header: [56:a] footer: [56:a]
+0x800000848: header: [4080:a] footer: [4080:a]
+0x800001838: header: [2008:f] footer: [2008:f]
+YOYOYO0x800001838: FreeNext: [(nil)] FreePrev: [0x800000010]
+0x800002010: EOL
+
+sweet as free 0x800000810
+
+ coal until if  found done!0,1Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [2104:f] footer: [2104:f]
+YOYOYO0x800000010: FreeNext: [0x800001838] FreePrev: [(nil)]
+0x800000848: header: [4080:a] footer: [4080:a]
+0x800001838: header: [2008:f] footer: [2008:f]
+YOYOYO0x800001838: FreeNext: [(nil)] FreePrev: [0x800000010]
+0x800002010: EOL
+Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [2104:f] footer: [2104:f]
+YOYOYO0x800000010: FreeNext: [0x800001838] FreePrev: [(nil)]
+0x800000848: header: [4080:a] footer: [4080:a]
+0x800001838: header: [2008:f] footer: [2008:f]
+YOYOYO0x800001838: FreeNext: [(nil)] FreePrev: [0x800000010]
+0x800002010: EOL
+
+ Size 4072
+
+YOYOYO: ZE FREEPTR afta gettin free: [0x800000010] 
+
+
+ extendin again
+
+ coal until if  found done!0,1Damn Simmons0x800001838
+
+sweet as free 0x800000848
+
+ coal until if  found done!0,1Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [6184:f] footer: [6184:f]
+YOYOYO0x800000010: FreeNext: [0x800002828] FreePrev: [(nil)]
+0x800001838: header: [4080:a] footer: [4080:a]
+0x800002828: header: [2024:f] footer: [2024:f]
+YOYOYO0x800002828: FreeNext: [(nil)] FreePrev: [0x800000010]
+0x800003010: EOL
+
+sweet as free 0x800001838
+
+ coal until if  found done!0,0Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [10264:f] footer: [10264:f]
+YOYOYO0x800000010: FreeNext: [0x800002828] FreePrev: [(nil)]
+0x800002828: header: [2024:f] footer: [2024:f]
+YOYOYO0x800002828: FreeNext: [(nil)] FreePrev: [0x800000010]
+0x800003010: EOL
+
+
+
+ After half join LE size mid 0x800000010
+Heap (0x800000008):
+0x800000008: header: [8:a] footer: [8:a]
+0x800000010: header: [12288:f] footer: [12288:f]
+YOYOYO0x800000010: FreeNext: [(nil)] FreePrev: [(nil)]
+0x800003010: EOL
+
+
+correctness check finished, by running tracefile "traces/short1.rep".
+ => correct.
+
+Perf index = 0 (util) & 0 (thru) = 0/100
