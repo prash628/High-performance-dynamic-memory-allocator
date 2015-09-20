@@ -7,6 +7,7 @@
 Main Files:
 ***********
 
+mm.c     Contains the source code for the implementation of malloc,calloc and realloc
 mdriver
         Once you've run make, run ./mdriver to test your solution.
 
